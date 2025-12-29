@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/Toolkit/InteractionPrompt.uss?fileID=7433441132597879392&amp;guid=2ffcec957fc57ab4f912d44aba3e79d4&amp;type=3#InteractionPrompt"/>
+    <ui:VisualElement name="prompt-container" class="prompt-container">
+        <ui:Label name="prompt-text" text="Press E to interact" class="prompt-text"/>
+    </ui:VisualElement>
+</ui:UXML>

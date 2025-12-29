@@ -1,0 +1,46 @@
+/* Interaction Prompt Styles */
+
+.prompt-container {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    translate: -50% 0;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(255, 255, 255, 0.3);
+    border-width: 2px;
+    border-radius: 10px;
+    
+    padding: 15px 30px;
+    
+    /* Hidden by default - InteractionUI will show/hide */
+    display: none;
+}
+
+.prompt-text {
+    color: white;
+    font-size: 24px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    
+    /* Add a subtle text shadow effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Optional: Add a pulsing animation effect */
+@keyframes pulse {
+    0% { 
+        scale: 1;
+    }
+    50% { 
+        scale: 1.05;
+    }
+    100% { 
+        scale: 1;
+    }
+}
+
+/* You can add this class to make the prompt pulse */
+.prompt-container-animated {
+    animation: pulse 2s ease-in-out infinite;
+}
